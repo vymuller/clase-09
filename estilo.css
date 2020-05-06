@@ -21,6 +21,7 @@ body {
 a, em, strong {
     font-style: normal;
     font-weight: bold;
+    color: #16747C;
 }
 
 h1 {
