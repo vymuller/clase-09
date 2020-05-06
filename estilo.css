@@ -24,7 +24,7 @@ a, em, strong {
 }
 
 h1 {
-    font-family: Georgia, serif;
+    font-family: 'Anton', sans-serif;
     color: #6d2b65;
 }
 
@@ -80,7 +80,7 @@ blockquote {
 blockquote p {
     margin: 0 0 .5rem 0;
     padding: 0;
-    font-family: Times, 'Times New Roman', serif;
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
     font-weight: 200;
     font-size: 125%;
