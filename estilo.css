@@ -1,0 +1,210 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    background: linear-gradient(180deg, rgba(225, 228, 239, 0.8) 200px, rgba(225, 228, 239, 0.9) 300px, rgba(225, 228, 239, 1) 400px), url('image-bg.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+@media screen and (orientation:portrait) {
+    body {
+        background-size: cover;
+    }
+}
+
+a, em, strong {
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #6d2b65;
+}
+
+h1 a {
+    color: #6d2b65;
+}
+
+h1 a:hover {
+    color: #7a4083;
+}
+
+h2, h3, h4, h5, h6 {
+    color:#020e49;
+}
+
+hr {
+    border:none;
+    border-bottom:1px solid #999;
+}
+
+nav {
+    position: fixed;
+    right: 3%;
+    top: 3%;
+    z-index: 999;
+}
+
+div.container {
+    padding: 3% 18%;
+}
+
+@media screen and (orientation:portrait) {
+    div.container {
+        padding: 6%;
+    }
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: auto;
+}
+
+h2 + p{
+    font-size:115%;
+    text-align:left;
+}
+
+blockquote {
+    padding-bottom: 0.5rem;
+}
+
+blockquote p {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+    font-family: Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 125%;
+    text-align: left;
+}
+
+blockquote footer {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+blockquote footer:before {
+    content: "— ";
+}
+
+dl dt {
+    float: left;
+    font-weight: bold;
+    font-size: 95%;
+}
+
+dl dd:before {
+    content: " — ";
+    padding-left: 0.3rem;
+}
+
+dl dd {
+    padding-bottom: 0.6rem;
+}
+
+ul li, ol li {
+    list-style-position: outside;
+    margin-bottom: 0.3rem;
+}
+
+ul li:last-of-type, ol li:last-of-type {
+    margin-bottom: 0.6rem;
+}
+
+figure {
+    margin: 1.2rem -0.3rem;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(100, 100, 100, .1)
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    font-size: 80%;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    padding: 0.25rem 0.5rem 0.75rem 0.5rem;
+    color: #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-weight: 300;
+    font-size: 90%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+@media screen and (orientation:portrait) {
+    table {
+        font-size: 80%;
+    }
+}
+
+table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+table tr td, table tr th {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+}
+
+table thead tr th {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+table thead tr th:first-child {
+    text-align: left;
+}
+
+table tbody tr th {
+    text-align: left;
+    font-weight: 300;
+}
+
+table tfoot {
+    font-size: 80%;
+    text-align: center;
+    color: #aaa;
+}
+
+table tfoot a, figure figcaption a {
+    color: #999;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+table tfoot a:hover, figure figcaption a:hover {
+    color: #888;
+    text-decoration: underline;
+}
+
+footer {
+    padding-top:2rem;
+    font-size: 90%;
+}
+
+blockquote footer{
+    padding-top:0;
+}
+
+.derecha {
+    float: right;
+}
