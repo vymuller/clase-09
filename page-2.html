@@ -74,7 +74,7 @@ sector ganadero entrañan también una creciente dependencia de los recursos de 
         new Chart(document.getElementById('uci').getContext('2d'), {
             type: 'bar',
             data: {
-                labels: ["01/04", "02/04", "03/04", "04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04", "11/04", "12/04", "13/04", "14/04", "15/04", "16/04", "17/04", "18/04", "19/04", "20/04", "21/04", "22/04", "23/04", "24/04", "25/04", "26/04", "27/04", "28/04", "29/04", "30/04"],
+                labels: ["Carne Bovina (vaca)", "Carne de oveja y cabra", "Carne de cerdo", "Carne de pollo", "Legumbres", "Cereales", "Frutas", "Verduras"],
                 datasets: [{
                     label: 'CHILE',
                     borderColor: '#cc2f59',
@@ -82,30 +82,13 @@ sector ganadero entrañan también una creciente dependencia de los recursos de 
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
-                    data: [16, 18, 22, 27, 34, 37, 43, 48, 57, 65, 73, 80, 82, 92, 94, 105, 116, 126, 133, 139, 147, 160, 168, 174, 181, 189, 198, 207]
-                }, {
-                    label: 'ARGENTINA',
-                    borderColor: '#2b89f5',
-                    backgroundColor: '#2b89f5',
-                    borderWidth: 1,
-                    pointRadius: 2,
-                    lineTension: 0,
-                    data: [28, 36, 39, 43, 44, 48, 56, 63, 72, 82, 83, 90, 97, 102, 111, 115, 123, 129, 132, 136, 147, 152, 165, 176, 185, 192, 197, 207]
-                }, {
-                    label: 'ECUADOR',
-                    borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
-                    backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
-                    borderWidth: 1,
-                    pointRadius: 2,
-                    lineTension: 0,
-                    data: [93, 120, 145, 172, 180, 191, 191, 242, 272, 297, 315, 333, 355, 369, 388, 403, 421, 456, 474, 507, 520, 537, 560, 576, 576, 576, 663, 871]
-                }]
-            },
+                    data: [15.415, 8.763, 5.988, 4.325, 4.055, 1.644, 962, 322]
+                },
             options: {
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'MUERTES POR COVID19 DURANTE ABRIL, 2020'
+                    text: 'GASTO DE AGUA TOTAL OCASIONADO POR EL CONSUMO DE ALIMENTOS (EN LITROS POR KILOGRAMO)'
                 },
                 tooltips: {
                     position: 'nearest',
