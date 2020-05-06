@@ -25,19 +25,19 @@ a, em, strong {
 
 h1 {
     font-family: 'Anton', sans-serif;
-    color: #6d2b65;
+    color: #16747C;
 }
 
 h1 a {
-    color: #6d2b65;
+    color: #16747C;
 }
 
 h1 a:hover {
-    color: #7a4083;
+    color: #16747C;
 }
 
 h2, h3, h4, h5, h6 {
-    color:#020e49;
+    color:#16747C;
 }
 
 hr {
