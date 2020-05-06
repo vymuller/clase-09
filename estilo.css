@@ -5,7 +5,7 @@ html, body {
 
 body {
     color: #000;
-    background: linear-gradient(180deg, rgba(22, 116, 124, 1) 200px, rgba(22, 116, 124, 1) 300px, rgba(22, 116, 124, 1) 400px), url('image-bg.jpg');
+    background: linear-gradient(180deg, rgba(232,253, 255, 0.7) 200px, rgba(232,253, 255, 0.9) 300px, rgba(232,253, 255, 1) 400px), url('image-bg.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
